@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <Forms>
+    <UDF1 Class="TCEForm" Encoding="Ascii85">h11PW!Y}^F?UjgCf=^Gkc-zsV?[p@PZjb.YYY^j#AX64}Bg.Jd20nw2.p15uVC+]+wN3v0wf[%A1AtEK8:WF-NAZg]wd]AM:szTCu}6#!!Q(:TKY;c4t,Fc4f[1V^8wDLLw?DC%rAz3V2AUb;!m#k214o0gV_z999Qa^!jIO5pLo{#x%zRCfD6AY7sj1BOq.j/rE2+fw9l@STDKjC#3_by0M0Z1e]TdiA?%=aiyl![]rpuKZul-m7K!!F[@!zt@ok7bEL(E[c).TfKXa%X)lxqE}HlHwp.1K6%O,iznT1%;JGFpun4Kso%/*zCJTY^*c#dg^?AK/?qR)U491tS#Fy!y2TQIm:txtLAqDdDX$aL0d_9l/P0(92/cCiVo4EM]t@8,$omR^%;:uqP^_]VRKPSpONuGd;#zacycKICAs8+%MTq((C%</UDF1>
+  </Forms>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"CLIENT_1"</Description>
+      <Options moHideChildren="1"/>
+      <LastState RealAddress="1D03A0D9040"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+      <Offsets>
+        <Offset>B970 * 0</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>6</ID>
+          <Description>"NAME_PLAYER_1"</Description>
+          <LastState RealAddress="1D03A0DEC5A"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 5C1A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"NAME_PLAYER_2"</Description>
+          <LastState RealAddress="1D03A0DF0A0"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 6060</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>22</ID>
+          <Description>"CLAN TAG"</Description>
+          <LastState RealAddress="1D03A0DF0E0"/>
+          <VariableType>String</VariableType>
+          <Length>4</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 60A0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"GODMODE"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">20000000:OFF
+A0000000:ON
+</DropDownList>
+          <LastState Value="10000000" RealAddress="1D03A0D9EA4"/>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + E64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>5</ID>
+          <Description>"MONEY"</Description>
+          <LastState Value="0" RealAddress="1D03A0DED64"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 5D24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>10</ID>
+          <Description>"WEAPONS 1"</Description>
+          <LastState Value="0" RealAddress="1D03A0D90F0"/>
+          <VariableType>Byte</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + B0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>92</ID>
+          <Description>"BLUEPRINT 1"</Description>
+          <LastState Value="0" RealAddress="1D03A0D9108"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + C8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>89</ID>
+          <Description>"CAMOS 1"</Description>
+          <LastState Value="0" RealAddress="1D03A0D9100"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + C0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>11</ID>
+          <Description>"WEAPONS 2"</Description>
+          <LastState Value="0" RealAddress="1D03A0D9130"/>
+          <VariableType>Byte</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + B0 + 40</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>91</ID>
+          <Description>"CAMOS 2"</Description>
+          <LastState Value="0" RealAddress="1D03A0D9140"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 100</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>8</ID>
+          <Description>"MAX AMMO 1"</Description>
+          <LastState Value="0" RealAddress="1D03A0DA420"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 13E0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"MAX AMMO 2"</Description>
+          <LastState Value="0" RealAddress="1D03A0DA424"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 13E4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"RUN SPEED"</Description>
+          <LastState Value="1" RealAddress="1D03A0DECB0"/>
+          <VariableType>Float</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 5C70</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"CRITICAL KILL"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">-1:ON
+4.235205126E-22:OFF
+</DropDownList>
+          <LastState Value="0" RealAddress="1D03A0DA118"/>
+          <VariableType>Float</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 10D8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>57</ID>
+          <Description>"THIRD PERSON"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:ON
+0:OFF
+</DropDownList>
+          <LastState Value="0" RealAddress="1D03A0DA6A4"/>
+          <VariableType>Byte</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 1664</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>90</ID>
+          <Description>"PLAYER BULLET FIRE"</Description>
+          <LastState Value="0" RealAddress="1D03A0DA024"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 0 + FE4</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"----------------------------"</Description>
+      <LastState RealAddress="7FF7D4630000"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"CLIENT_2"</Description>
+      <Options moHideChildren="1"/>
+      <LastState RealAddress="1D03A0E49B0"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+      <Offsets>
+        <Offset>B970 * 1</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>24</ID>
+          <Description>"NAME_PLAYER_1"</Description>
+          <LastState RealAddress="1D03A0EA5CA"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 5C1A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>25</ID>
+          <Description>"NAME_PLAYER_2"</Description>
+          <LastState RealAddress="1D03A0EAA10"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 6060</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>26</ID>
+          <Description>"CLAN TAG"</Description>
+          <LastState RealAddress="1D03A0EAA50"/>
+          <VariableType>String</VariableType>
+          <Length>4</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 60A0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>27</ID>
+          <Description>"GODMODE"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">20000000:OFF
+A0000000:ON
+</DropDownList>
+          <LastState Value="00000000" RealAddress="1D03A0E5814"/>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 1 + E64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>28</ID>
+          <Description>"MONEY"</Description>
+          <LastState Value="0" RealAddress="1D03A0EA6D4"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 5D24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"CHANGE WEAPONS 1"</Description>
+          <LastState Value="0" RealAddress="1D03A0E4A60"/>
+          <VariableType>Byte</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 1 + B0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>31</ID>
+          <Description>"CHANGE WEAPONS 2"</Description>
+          <LastState Value="0" RealAddress="1D03A0E4AA0"/>
+          <VariableType>Byte</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 1 + B0 + 40</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>30</ID>
+          <Description>"MAX AMMO 1"</Description>
+          <LastState Value="0" RealAddress="1D03A0E5D90"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 13E0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>32</ID>
+          <Description>"MAX AMMO 2"</Description>
+          <LastState Value="0" RealAddress="1D03A0E5D94"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 13E4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>33</ID>
+          <Description>"RUN SPEED"</Description>
+          <LastState Value="0" RealAddress="1D03A0EA620"/>
+          <VariableType>Float</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 5C70</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>34</ID>
+          <Description>"CRITICAL KILL"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">-1:ON
+4.235205126E-22:OFF
+</DropDownList>
+          <LastState Value="0" RealAddress="1D03A0E5A88"/>
+          <VariableType>Float</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 10D8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>60</ID>
+          <Description>"THIRD PERSON"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:ON
+0:OFF
+</DropDownList>
+          <LastState Value="0" RealAddress="1D03A0E6014"/>
+          <VariableType>Byte</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 1664</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"----------------------------"</Description>
+      <LastState RealAddress="7FF7D4630000"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"CLIENT_3"</Description>
+      <Options moHideChildren="1"/>
+      <LastState RealAddress="1D03A0F0320"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+      <Offsets>
+        <Offset>B970 * 2</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>35</ID>
+          <Description>"NAME_PLAYER_1"</Description>
+          <LastState RealAddress="1D03A0F5F3A"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 5C1A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>36</ID>
+          <Description>"NAME_PLAYER_2"</Description>
+          <LastState RealAddress="1D03A0F6380"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 6060</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>37</ID>
+          <Description>"CLAN TAG"</Description>
+          <LastState RealAddress="1D03A0F63C0"/>
+          <VariableType>String</VariableType>
+          <Length>4</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 60A0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>38</ID>
+          <Description>"GODMODE"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">20000000:OFF
+A0000000:ON
+</DropDownList>
+          <LastState Value="00000000" RealAddress="1D03A0F1184"/>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 2 + E64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>39</ID>
+          <Description>"MONEY"</Description>
+          <LastState Value="0" RealAddress="1D03A0F6044"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 5D24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>40</ID>
+          <Description>"CHANGE WEAPONS 1"</Description>
+          <LastState Value="0" RealAddress="1D03A0F03D0"/>
+          <VariableType>Byte</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 2 + B0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>41</ID>
+          <Description>"CHANGE WEAPONS 2"</Description>
+          <LastState Value="0" RealAddress="1D03A0F0410"/>
+          <VariableType>Byte</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 2 + B0 + 40</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>42</ID>
+          <Description>"MAX AMMO 1"</Description>
+          <LastState Value="0" RealAddress="1D03A0F1700"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 13E0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>43</ID>
+          <Description>"MAX AMMO 2"</Description>
+          <LastState Value="0" RealAddress="1D03A0F1704"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 13E4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>44</ID>
+          <Description>"RUN SPEED"</Description>
+          <LastState Value="0" RealAddress="1D03A0F5F90"/>
+          <VariableType>Float</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 5C70</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>45</ID>
+          <Description>"CRITICAL KILL"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">-1:ON
+4.235205126E-22:OFF
+</DropDownList>
+          <LastState Value="0" RealAddress="1D03A0F13F8"/>
+          <VariableType>Float</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 10D8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>61</ID>
+          <Description>"THIRD PERSON"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:ON
+0:OFF
+</DropDownList>
+          <LastState Value="0" RealAddress="1D03A0F1984"/>
+          <VariableType>Byte</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 1664</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"----------------------------"</Description>
+      <LastState RealAddress="7FF7D4630000"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"CLIENT_4"</Description>
+      <Options moHideChildren="1"/>
+      <LastState RealAddress="1D03A0FBC90"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+      <Offsets>
+        <Offset>B970 * 3</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>46</ID>
+          <Description>"NAME_PLAYER_1"</Description>
+          <LastState RealAddress="1D03A1018AA"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 5C1A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>47</ID>
+          <Description>"NAME_PLAYER_2"</Description>
+          <LastState RealAddress="1D03A101CF0"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 6060</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>48</ID>
+          <Description>"CLAN TAG"</Description>
+          <LastState RealAddress="1D03A101D30"/>
+          <VariableType>String</VariableType>
+          <Length>4</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 60A0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>49</ID>
+          <Description>"GODMODE"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">20000000:OFF
+A0000000:ON
+</DropDownList>
+          <LastState Value="00000000" RealAddress="1D03A0FCAF4"/>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 3 + E64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>50</ID>
+          <Description>"MONEY"</Description>
+          <LastState Value="0" RealAddress="1D03A1019B4"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 5D24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>51</ID>
+          <Description>"CHANGE WEAPONS 1"</Description>
+          <LastState Value="0" RealAddress="1D03A0FBD40"/>
+          <VariableType>Byte</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 3 + B0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>52</ID>
+          <Description>"CHANGE WEAPONS 2"</Description>
+          <LastState Value="0" RealAddress="1D03A0FBD80"/>
+          <VariableType>Byte</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 3 + B0 + 40</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>53</ID>
+          <Description>"MAX AMMO 1"</Description>
+          <LastState Value="0" RealAddress="1D03A0FD070"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 13E0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>54</ID>
+          <Description>"MAX AMMO 2"</Description>
+          <LastState Value="0" RealAddress="1D03A0FD074"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 13E4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>55</ID>
+          <Description>"RUN SPEED"</Description>
+          <LastState Value="0" RealAddress="1D03A101900"/>
+          <VariableType>Float</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 5C70</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>56</ID>
+          <Description>"CRITICAL KILL"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">-1:ON
+4.235205126E-22:OFF
+</DropDownList>
+          <LastState Value="0" RealAddress="1D03A0FCD68"/>
+          <VariableType>Float</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 10D8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>62</ID>
+          <Description>"THIRD PERSON"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:ON
+0:OFF
+</DropDownList>
+          <LastState Value="0" RealAddress="1D03A0FD2F4"/>
+          <VariableType>Byte</VariableType>
+          <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 1664</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>59</ID>
+      <Description>"----------------------------"</Description>
+      <LastState RealAddress="7FF7D4630000"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>58</ID>
+      <Description>"SET MODEL"</Description>
+      <LastState Value="08 00 00 00 00 00 00 00 00 00" RealAddress="1D03A0DECE8"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>10</ByteLength>
+      <Address>BlackOpsColdWar.exe+0x1085C458</Address>
+      <Offsets>
+        <Offset>B970 * 0 + 5CA8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>67</ID>
+      <Description>"----------------------------"</Description>
+      <LastState RealAddress="7FF7D4630000"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>71</ID>
+      <Description>"OPERATOR UNLOCK"</Description>
+      <Options moHideChildren="1"/>
+      <LastState RealAddress="7FF7D4630000"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>72</ID>
+          <Description>"ADLER"</Description>
+          <Options moHideChildren="1"/>
+          <LastState RealAddress="7FF7D4630000"/>
+          <VariableType>String</VariableType>
+          <Length>0</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BlackOpsColdWar.exe+0</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>68</ID>
+              <Description>"CRYPTER"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2A7F692"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E44F66B + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>69</ID>
+              <Description>"FLINGUEUR"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2A9BC92"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E46BC6B + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>70</ID>
+              <Description>"AFFRONTEMENT"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2A9CDD2"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E46CDAB + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>73</ID>
+              <Description>"RANGER"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="D6" RealAddress="7FF7E2AA7F52"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+ 0x0E477F2B + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>66</ID>
+              <Description>"MIAMI"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2AA8452"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E47842E + 0x24</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>74</ID>
+              <Description>"ENQUETEUR"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="74" RealAddress="7FF7E2AAAE52"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E47AE2B + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>75</ID>
+              <Description>"TERRE HUMIDES"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2AAF092"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E47F06B + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>76</ID>
+              <Description>"FIL BARBELE"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2AB2C12"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E482BEB + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>77</ID>
+              <Description>"ROUX"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2AB3912"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E4838EB + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>78</ID>
+              <Description>"SAUVETEUR"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2AC0D52"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E490D2B + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>79</ID>
+              <Description>"ELEGANT"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2ACDE52"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E49DE2B + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>80</ID>
+              <Description>"EXCELLENCE"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="6E" RealAddress="7FF7E2AD0A52"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E4A0A2B + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>81</ID>
+              <Description>"REGEGAT"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2AD9BD2"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E4A9BAB + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>82</ID>
+              <Description>"VOYAGEUR"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2AD9C52"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E4A9C2B + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>83</ID>
+              <Description>"AMBASSADEUR"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2B27552"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0x0E4F752B + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>84</ID>
+              <Description>"BASE JUMPER"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="74" RealAddress="7FF7E2B3B6D2"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0xE50B6AB + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>85</ID>
+              <Description>"AGENT ZERO"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2B3B752"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0xE50B72B + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86</ID>
+              <Description>"TORTURE ET SAUVE"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="84" RealAddress="7FF7E2B3B7D2"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0xE50B7AB + 0x27</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>87</ID>
+              <Description>"ABORDAGE"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">84:LOCKED
+00:UNLOCKED
+</DropDownList>
+              <LastState Value="6D" RealAddress="7FF7E2B3BCD2"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>1</ByteLength>
+              <Address>BlackOpsColdWar.exe+0xE50BCAB + 0x27</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>891</ID>
+      <Description>"----------------------------"</Description>
+      <LastState RealAddress="7FF7D4630000"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>888</ID>
+      <Description>"GET WEAPONS SWAPPER (EQUIP 1ST MULTI CAMOS CLASSE 1 AND NOT MOOVE)"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Activated="1"/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+{$lua}
+
+  local addr,msg = AOBScanModule('01 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 0F A3 ? AF', process)
+  if addr then
+
+    unregisterSymbol("addr")
+    registerSymbol("GetCamos", addr, true)
+  else
+    print(msg)
+  end
+
+[DISABLE]
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>88</ID>
+          <Description>"CAMOS (MAIN)"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:SHARDS (MP)
+61:GOLD (MP)
+62:DIAMOND (MP)
+63:DM ULTRA (MP)
+64:GOLDEN VIPER (ZM)
+65:PLAGUE DIAMOND (ZM)
+66:DARK AETHER (ZM)
+67:PACK A PUNCH 1 (ZM)
+68:PACK A PUNCH 2 (ZM)
+69:PACK A PUNCH 3 (ZM)
+116:VIRTUOSE 1
+117:VIRTUOSE 2
+118:VIRTUOSE 3
+119:VIRTUOSE 4
+120:VIRTUOSE 5
+121:VIRTUOSE 6
+81:SPETIAL 1
+84:SPETIAL 2
+87:SPETIAL 3
+90:SPETIAL 4
+93:SPETIAL 5
+96:SPETIAL 6
+99:SPETIAL 7
+102:SPETIAL 8
+105:SPETIAL 9
+108:SPETIAL 10
+111:SPETIAL 11
+114:SPETIAL 12
+255:NO CAMO
+</DropDownList>
+          <LastState Value="61" RealAddress="7FF7EBB01610"/>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>890</ID>
+          <Description>"CAMOS (SECOND)"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:SHARDS (MP)
+61:GOLD (MP)
+62:DIAMOND (MP)
+63:DM ULTRA (MP)
+64:GOLDEN VIPER (ZM)
+65:PLAGUE DIAMOND (ZM)
+66:DARK AETHER (ZM)
+67:PACK A PUNCH 1 (ZM)
+68:PACK A PUNCH 2 (ZM)
+69:PACK A PUNCH 3 (ZM)
+116:VIRTUOSE 1
+117:VIRTUOSE 2
+118:VIRTUOSE 3
+119:VIRTUOSE 4
+120:VIRTUOSE 5
+121:VIRTUOSE 6
+81:SPETIAL 1
+84:SPETIAL 2
+87:SPETIAL 3
+90:SPETIAL 4
+93:SPETIAL 5
+96:SPETIAL 6
+99:SPETIAL 7
+102:SPETIAL 8
+105:SPETIAL 9
+108:SPETIAL 10
+111:SPETIAL 11
+114:SPETIAL 12
+255:NO CAMO
+</DropDownList>
+          <LastState Value="255" RealAddress="7FF7EBB01D00"/>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 6F0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>889</ID>
+          <Description>"BLUEPRINT (MAIN)"</Description>
+          <LastState Value="0" RealAddress="7FF7EBB016D0"/>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + C0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>892</ID>
+          <Description>"RETICLES (MAIN)"</Description>
+          <LastState Value="0" RealAddress="7FF7EBB01640"/>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 30</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>893</ID>
+          <Description>"ACCESSORIES_1 (MAIN)"</Description>
+          <LastState Value="10" RealAddress="7FF7EBB017C0"/>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 1B0 + 60 * 0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>894</ID>
+          <Description>"ACCESSORIES_2 (MAIN)"</Description>
+          <LastState Value="0" RealAddress="7FF7EBB01820"/>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 1B0 + 60 * 1</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>895</ID>
+          <Description>"ACCESSORIES_3 (MAIN)"</Description>
+          <LastState Value="0" RealAddress="7FF7EBB01880"/>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 1B0 + 60 * 2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>896</ID>
+          <Description>"ACCESSORIES_4 (MAIN)"</Description>
+          <LastState Value="0" RealAddress="7FF7EBB018E0"/>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 1B0 + 60 * 3</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>897</ID>
+          <Description>"ACCESSORIES_5 (MAIN)"</Description>
+          <LastState Value="0" RealAddress="7FF7EBB01940"/>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 1B0 + 60 * 4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>898</ID>
+          <Description>"STICKERS_1 (MAIN)"</Description>
+          <LastState Value="1023" RealAddress="7FF7EBB01AF0"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>GetCamos + 4E0 + 60 * 0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>899</ID>
+          <Description>"STICKERS_2 (MAIN)"</Description>
+          <LastState Value="1023" RealAddress="7FF7EBB01B50"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>GetCamos + 4E0 + 60 * 1</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>900</ID>
+          <Description>"STICKERS_3 (MAIN)"</Description>
+          <LastState Value="1023" RealAddress="7FF7EBB01BB0"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>GetCamos + 4E0 + 60 * 2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>901</ID>
+          <Description>"STICKERS_4 (MAIN)"</Description>
+          <LastState Value="1023" RealAddress="7FF7EBB01C10"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>GetCamos + 4E0 + 60 * 3</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>getAutoAttachList().add("BlackOpsColdWar.exe")
+function AOBScanAA(script, symbol)
+  local success,disableInfo = autoAssemble(script)
+  if not success then return nil, disableInfo end -- disableInfo is error message on failure
+  local addr = getAddress(symbol)
+  autoAssemble(script, disableInfo) -- disable script and unregister symbol
+  return addr, 'success'
+end
+
+function AOBScanRegion(bytestr, start, stop)
+  local script = ([[
+  [ENABLE]
+  aobscanregion(luaAOBScanRegionSymbol,%X,%X,%s)
+  registersymbol(luaAOBScanRegionSymbol)
+  [DISABLE]
+  unregistersymbol(luaAOBScanRegionSymbol)
+  ]]):format(getAddress(start), getAddress(stop), bytestr)
+  return AOBScanAA(script, 'luaAOBScanRegionSymbol')
+end
+
+function AOBScanModule(bytestr, module)
+  local script = ([[
+  [ENABLE]
+  aobscanmodule(luaAOBScanModuleSymbol,%s,%s)
+  registersymbol(luaAOBScanModuleSymbol)
+  [DISABLE]
+  unregistersymbol(luaAOBScanModuleSymbol)
+  ]]):format(module, bytestr)
+  return AOBScanAA(script,'luaAOBScanModuleSymbol')
+end
+
+
+function UDF1_CEButton1Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  if addr then
+    print(('0x%X'):format(addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton2Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('40 ?? ?? ?? ?? ?? 00 00 40 ?? ?? ?? ?? ?? 00 00 8C 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton3Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 00 00 00 00 80 3F 00 00 80 3F 00 00 80 3F', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton4Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('00 00 00 00 00 00 00 00 00 00 00 00 FF 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? 00 ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? 00 ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 11 08 20 00 FF FF FF FF ?? ?? ?? 00 73 00 00 00', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton5Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? 00 00 76 73 07 ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton6Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 20 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton7Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('63 6C 65 61 72 4B 65 79 53 74 61 74 65 73 0A 00', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton8Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('01 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 0F A3 ? AF', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+</LuaScript>
+</CheatTable>
