@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <Forms>
+    <UDF1 Class="TCEForm" Encoding="Ascii85">h11PW!Y}^F?UjgCf=^Gkc-zsV?[p@PZjb.YYY^j#AX64}Bg.Jd20nw2.p15uVC+]+wN3v0wf[%A1AtEK8:WF-NAZg]wd]AM:szTCu}6#!!Q(:TKY;c4t,Fc4f[1V^8wDLLw?DC%rAz3V2AUb;!m#k214o0gV_z999Qa^!jIO5pLo{#x%zRCfD6AY7sj1BOq.j/rE2+fw9l@STDKjC#3_by0M0Z1e]TdiA?%=aiyl![]rpuKZul-m7K!!F[@!zt@ok7bEL(E[c).TfKXa%X)lxqE}HlHwp.1K6%O,iznT1%;JGFpun4Kso%/*zCJTY^*c#dg^?AK/?qR)U491tS#Fy!y2TQIm:txtLAqDdDX$aL0d_9l/P0(92/cCiVo4EM]t@8,$omR^%;:uqP^_]VRKPSpONuGd;#zacycKICAs8+%MTq((C%</UDF1>
+  </Forms>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>938</ID>
+      <Description>"GET G_CLIENT"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Activated="1"/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+{$lua}
+
+  local addr,msg = AOBScanModule('40 ?? ?? ?? ?? ?? 00 00 40 ?? ?? ?? ?? ?? 00 00 8C 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00', process)
+  if addr then
+
+    unregisterSymbol("addr")
+    registerSymbol("G_Client", addr, true)
+  else
+    print(msg)
+  end
+
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>955</ID>
+      <Description>"----------------------------"</Description>
+      <LastState RealAddress="00000000"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>903</ID>
+      <Description>"CLIENT 1"</Description>
+      <Options moHideChildren="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+[DISABLE]
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>6</ID>
+          <Description>"NAME_PLAYER_1"</Description>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 5C1A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"NAME_PLAYER_2"</Description>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 6060</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>22</ID>
+          <Description>"CLAN TAG"</Description>
+          <VariableType>String</VariableType>
+          <Length>4</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 60A0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"GODMODE"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">20000000:OFF
+A0000000:ON
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + E64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>5</ID>
+          <Description>"MONEY"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 5D24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>10</ID>
+          <Description>"WEAPONS 1"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + B0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>92</ID>
+          <Description>"BLUEPRINT 1"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + C8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>89</ID>
+          <Description>"CAMOS 1"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + C0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>11</ID>
+          <Description>"WEAPONS 2"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + B0 + 40</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>91</ID>
+          <Description>"CAMOS 2"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 100</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>8</ID>
+          <Description>"MAX AMMO 1"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 13E0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"MAX AMMO 2"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 13E4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"RUN SPEED"</Description>
+          <VariableType>Float</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 5C70</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"CRITICAL KILL"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">-1:ON
+4.235205126E-22:OFF
+</DropDownList>
+          <VariableType>Float</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 10D8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>57</ID>
+          <Description>"THIRD PERSON"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:ON
+0:OFF
+</DropDownList>
+          <VariableType>Byte</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + 1664</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>90</ID>
+          <Description>"PLAYER BULLET FIRE"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 0 + FE4</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"----------------------------"</Description>
+      <LastState RealAddress="00000000"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>904</ID>
+      <Description>"CLIENT 2"</Description>
+      <Options moHideChildren="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+
+[DISABLE]
+
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>905</ID>
+          <Description>"NAME_PLAYER_1"</Description>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 5C1A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>906</ID>
+          <Description>"NAME_PLAYER_2"</Description>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 6060</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>907</ID>
+          <Description>"CLAN TAG"</Description>
+          <VariableType>String</VariableType>
+          <Length>4</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 60A0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>908</ID>
+          <Description>"GODMODE"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">20000000:OFF
+A0000000:ON
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + E64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>909</ID>
+          <Description>"MONEY"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 5D24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>910</ID>
+          <Description>"WEAPONS 1"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + B0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>911</ID>
+          <Description>"BLUEPRINT 1"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + C8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>912</ID>
+          <Description>"CAMOS 1"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + C0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>913</ID>
+          <Description>"WEAPONS 2"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + B0 + 40</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>914</ID>
+          <Description>"CAMOS 2"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 100</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>915</ID>
+          <Description>"MAX AMMO 1"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 13E0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>916</ID>
+          <Description>"MAX AMMO 2"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 13E4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>917</ID>
+          <Description>"RUN SPEED"</Description>
+          <VariableType>Float</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 5C70</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>918</ID>
+          <Description>"CRITICAL KILL"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">-1:ON
+4.235205126E-22:OFF
+</DropDownList>
+          <VariableType>Float</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 10D8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>919</ID>
+          <Description>"THIRD PERSON"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:ON
+0:OFF
+</DropDownList>
+          <VariableType>Byte</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + 1664</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>920</ID>
+          <Description>"PLAYER BULLET FIRE"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 1 + FE4</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"----------------------------"</Description>
+      <LastState RealAddress="00000000"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>921</ID>
+      <Description>"CLIENT 3"</Description>
+      <Options moHideChildren="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+[DISABLE]
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>922</ID>
+          <Description>"NAME_PLAYER_1"</Description>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 5C1A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>923</ID>
+          <Description>"NAME_PLAYER_2"</Description>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 6060</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>924</ID>
+          <Description>"CLAN TAG"</Description>
+          <VariableType>String</VariableType>
+          <Length>4</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 60A0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>925</ID>
+          <Description>"GODMODE"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">20000000:OFF
+A0000000:ON
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + E64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>926</ID>
+          <Description>"MONEY"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 5D24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>927</ID>
+          <Description>"WEAPONS 1"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + B0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>928</ID>
+          <Description>"BLUEPRINT 1"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + C8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>929</ID>
+          <Description>"CAMOS 1"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + C0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>930</ID>
+          <Description>"WEAPONS 2"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + B0 + 40</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>931</ID>
+          <Description>"CAMOS 2"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 100</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>932</ID>
+          <Description>"MAX AMMO 1"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 13E0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>933</ID>
+          <Description>"MAX AMMO 2"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 13E4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>934</ID>
+          <Description>"RUN SPEED"</Description>
+          <VariableType>Float</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 5C70</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>935</ID>
+          <Description>"CRITICAL KILL"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">-1:ON
+4.235205126E-22:OFF
+</DropDownList>
+          <VariableType>Float</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 10D8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>936</ID>
+          <Description>"THIRD PERSON"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:ON
+0:OFF
+</DropDownList>
+          <VariableType>Byte</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + 1664</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>937</ID>
+          <Description>"PLAYER BULLET FIRE"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 2 + FE4</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"----------------------------"</Description>
+      <LastState RealAddress="00000000"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>956</ID>
+      <Description>"CLIENT 4"</Description>
+      <Options moHideChildren="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+[DISABLE]
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>957</ID>
+          <Description>"NAME_PLAYER_1"</Description>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 5C1A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>958</ID>
+          <Description>"NAME_PLAYER_2"</Description>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 6060</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>959</ID>
+          <Description>"CLAN TAG"</Description>
+          <VariableType>String</VariableType>
+          <Length>4</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 60A0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>960</ID>
+          <Description>"GODMODE"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">20000000:OFF
+A0000000:ON
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + E64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>961</ID>
+          <Description>"MONEY"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 5D24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>962</ID>
+          <Description>"WEAPONS 1"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + B0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>963</ID>
+          <Description>"BLUEPRINT 1"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + C8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>964</ID>
+          <Description>"CAMOS 1"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + C0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>965</ID>
+          <Description>"WEAPONS 2"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + B0 + 40</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>966</ID>
+          <Description>"CAMOS 2"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 100</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>967</ID>
+          <Description>"MAX AMMO 1"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 13E0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>968</ID>
+          <Description>"MAX AMMO 2"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 13E4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>969</ID>
+          <Description>"RUN SPEED"</Description>
+          <VariableType>Float</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 *3 + 5C70</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>970</ID>
+          <Description>"CRITICAL KILL"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">-1:ON
+4.235205126E-22:OFF
+</DropDownList>
+          <VariableType>Float</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 10D8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>971</ID>
+          <Description>"THIRD PERSON"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:ON
+0:OFF
+</DropDownList>
+          <VariableType>Byte</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + 1664</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>972</ID>
+          <Description>"PLAYER BULLET FIRE"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>G_Client</Address>
+          <Offsets>
+            <Offset>B970 * 3 + FE4</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>59</ID>
+      <Description>"----------------------------"</Description>
+      <LastState RealAddress="00000000"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>58</ID>
+      <Description>"SET MODEL"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>10</ByteLength>
+      <Address>G_Client</Address>
+      <Offsets>
+        <Offset>B970 * 0 + 5CA8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>67</ID>
+      <Description>"----------------------------"</Description>
+      <LastState RealAddress="00000000"/>
+      <VariableType>String</VariableType>
+      <Length>0</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>BlackOpsColdWar.exe+0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>888</ID>
+      <Description>"GET WEAPONS SWAPPER (EQUIP 1ST MULTI CAMOS CLASSE 1 AND NOT MOOVE)"</Description>
+      <Options moHideChildren="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+{$lua}
+
+  local addr,msg = AOBScanModule('01 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 0F A3 ? AF', process)
+  if addr then
+
+    unregisterSymbol("addr")
+    registerSymbol("GetCamos", addr, true)
+  else
+    print(msg)
+  end
+
+[DISABLE]
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>88</ID>
+          <Description>"CAMOS (MAIN)"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:SHARDS (MP)
+61:GOLD (MP)
+62:DIAMOND (MP)
+63:DM ULTRA (MP)
+64:GOLDEN VIPER (ZM)
+65:PLAGUE DIAMOND (ZM)
+66:DARK AETHER (ZM)
+67:PACK A PUNCH 1 (ZM)
+68:PACK A PUNCH 2 (ZM)
+69:PACK A PUNCH 3 (ZM)
+116:VIRTUOSE 1
+117:VIRTUOSE 2
+118:VIRTUOSE 3
+119:VIRTUOSE 4
+120:VIRTUOSE 5
+121:VIRTUOSE 6
+81:SPETIAL 1
+84:SPETIAL 2
+87:SPETIAL 3
+90:SPETIAL 4
+93:SPETIAL 5
+96:SPETIAL 6
+99:SPETIAL 7
+102:SPETIAL 8
+105:SPETIAL 9
+108:SPETIAL 10
+111:SPETIAL 11
+114:SPETIAL 12
+255:NO CAMO
+</DropDownList>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>890</ID>
+          <Description>"CAMOS (SECOND)"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:SHARDS (MP)
+61:GOLD (MP)
+62:DIAMOND (MP)
+63:DM ULTRA (MP)
+64:GOLDEN VIPER (ZM)
+65:PLAGUE DIAMOND (ZM)
+66:DARK AETHER (ZM)
+67:PACK A PUNCH 1 (ZM)
+68:PACK A PUNCH 2 (ZM)
+69:PACK A PUNCH 3 (ZM)
+116:VIRTUOSE 1
+117:VIRTUOSE 2
+118:VIRTUOSE 3
+119:VIRTUOSE 4
+120:VIRTUOSE 5
+121:VIRTUOSE 6
+81:SPETIAL 1
+84:SPETIAL 2
+87:SPETIAL 3
+90:SPETIAL 4
+93:SPETIAL 5
+96:SPETIAL 6
+99:SPETIAL 7
+102:SPETIAL 8
+105:SPETIAL 9
+108:SPETIAL 10
+111:SPETIAL 11
+114:SPETIAL 12
+255:NO CAMO
+</DropDownList>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 6F0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>889</ID>
+          <Description>"BLUEPRINT (MAIN)"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + C0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>892</ID>
+          <Description>"RETICLES (MAIN)"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 30</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>893</ID>
+          <Description>"ACCESSORIES_1 (MAIN)"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 1B0 + 60 * 0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>894</ID>
+          <Description>"ACCESSORIES_2 (MAIN)"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 1B0 + 60 * 1</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>895</ID>
+          <Description>"ACCESSORIES_3 (MAIN)"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 1B0 + 60 * 2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>896</ID>
+          <Description>"ACCESSORIES_4 (MAIN)"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 1B0 + 60 * 3</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>897</ID>
+          <Description>"ACCESSORIES_5 (MAIN)"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>GetCamos + 1B0 + 60 * 4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>898</ID>
+          <Description>"STICKERS_1 (MAIN)"</Description>
+          <VariableType>2 Bytes</VariableType>
+          <Address>GetCamos + 4E0 + 60 * 0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>899</ID>
+          <Description>"STICKERS_2 (MAIN)"</Description>
+          <VariableType>2 Bytes</VariableType>
+          <Address>GetCamos + 4E0 + 60 * 1</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>900</ID>
+          <Description>"STICKERS_3 (MAIN)"</Description>
+          <VariableType>2 Bytes</VariableType>
+          <Address>GetCamos + 4E0 + 60 * 2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>901</ID>
+          <Description>"STICKERS_4 (MAIN)"</Description>
+          <VariableType>2 Bytes</VariableType>
+          <Address>GetCamos + 4E0 + 60 * 3</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>getAutoAttachList().add("BlackOpsColdWar.exe")
+function AOBScanAA(script, symbol)
+  local success,disableInfo = autoAssemble(script)
+  if not success then return nil, disableInfo end -- disableInfo is error message on failure
+  local addr = getAddress(symbol)
+  autoAssemble(script, disableInfo) -- disable script and unregister symbol
+  return addr, 'success'
+end
+
+function AOBScanRegion(bytestr, start, stop)
+  local script = ([[
+  [ENABLE]
+  aobscanregion(luaAOBScanRegionSymbol,%X,%X,%s)
+  registersymbol(luaAOBScanRegionSymbol)
+  [DISABLE]
+  unregistersymbol(luaAOBScanRegionSymbol)
+  ]]):format(getAddress(start), getAddress(stop), bytestr)
+  return AOBScanAA(script, 'luaAOBScanRegionSymbol')
+end
+
+function AOBScanModule(bytestr, module)
+  local script = ([[
+  [ENABLE]
+  aobscanmodule(luaAOBScanModuleSymbol,%s,%s)
+  registersymbol(luaAOBScanModuleSymbol)
+  [DISABLE]
+  unregistersymbol(luaAOBScanModuleSymbol)
+  ]]):format(module, bytestr)
+  return AOBScanAA(script,'luaAOBScanModuleSymbol')
+end
+
+
+function UDF1_CEButton1Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  if addr then
+    print(('0x%X'):format(addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton2Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('40 ?? ?? ?? ?? ?? 00 00 40 ?? ?? ?? ?? ?? 00 00 8C 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton3Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 00 00 00 00 80 3F 00 00 80 3F 00 00 80 3F', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton4Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('00 00 00 00 00 00 00 00 00 00 00 00 FF 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? 00 ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? 00 ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 11 08 20 00 FF FF FF FF ?? ?? ?? 00 73 00 00 00', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton5Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? 00 00 76 73 07 ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton6Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 20 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton7Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('63 6C 65 61 72 4B 65 79 53 74 61 74 65 73 0A 00', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+function UDF1_CEButton8Click(sender)
+  local addr,msg = AOBScanModule('4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00 B8 00 00 00 00 00 00 00', process)
+  local addr1,msg = AOBScanModule('01 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 0F A3 ? AF', process)
+
+  if addr then
+    print(('0x%X'):format(addr1 - addr))
+  else
+    print(msg)
+  end
+end
+</LuaScript>
+</CheatTable>
